@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="Tarea2prueba2.js"></script>
+</head>
+
+<body>
+    <h1>Practica clase</h1>
+
+    <script>
+        console.log('hola');
+        var valor1;
+        var valor2;
+
+        valor1 = prompt('Ingrese primer numero:', '');
+        valor2 = prompt('Ingrese segundo numero:', '');
+
+        var suma = parseInt(valor1) + parseInt(valor2);
+
+        document.write('La suma es ');
+        document.write(suma);
+
+    </script>
+
+    <script>
+        var numeros = [40, 4, 50, 100, 2, 25];
+        console.log(numeros);
+
+        var ultimo = numeros[numeros.length - 1];
+        console.log(ultimo);
+
+        for (var i = 0; i < numeros.length; i++) {
+            console.log('tenemos ' + numeros[i])
+
+        }
+    </script>
+    <h2>Ejercicio 2</h2>
+    <script>
+        //1er paso -> creo array de numeros al azar
+
+        var numeros_azar = [50, 80, 500, 2, 6];
+        console.log(numeros_azar);
+
+        //2do paso -> creo la variable que arranca en 0 (cero)
+
+        var num_mayor = 0;
+        document.write("Los numeros son...");
+        document.writeln(numeros_azar);
+        document.writeln();
+
+        //3er paso -> creo el bucle for
+
+        for (var i = 0; i < numeros_azar.length; i++) {
+
+        //4to paso -> creo las condicion con if
+
+            if (num_mayor < numeros_azar[i]) {
+                num_mayor = numeros_azar[i];
+            }
+        }
+        //5to paso -> Resultado del mayor numero
+
+        document.write("La cantidad de numeros son...");
+        document.write(i);
+        document.writeln();
+        document.write("El numero mayor es..." + num_mayor);
+       
+            
+
+
+
+
+    </script>
+</body>
+
+
+</html>
