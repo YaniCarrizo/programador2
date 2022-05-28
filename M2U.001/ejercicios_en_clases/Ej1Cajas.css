@@ -1,0 +1,61 @@
+body {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 100vh;
+}
+p {
+    text-align: center;
+    padding: 70px;
+}
+p:hover {
+    color: aliceblue;
+}
+
+h1 {
+        text-transform: uppercase;
+        text-align: start;
+        }
+
+  .Caja1 {
+    background-color: rgb(215, 218, 250);
+    width: 300px;
+    height: 300px;
+    border-radius: 0%;
+}
+
+.Caja1:hover {
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    border-radius: 0%;
+}
+
+.Caja2 {
+    background-color: antiquewhite;
+    width: 300px;
+    height: 300px;
+}
+
+.Caja2:hover {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    border-radius: 0%;
+}
+
+.Caja3 {
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    border-radius: 0%;
+    transition: 1s
+}
+
+.Caja3:hover {
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    border-radius: 50%;
+}
