@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap linkeando la web del sitio -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="BootstrapTarea2.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navegar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    <a class="nav-link active" href="#">Clientes</a>
+                    <a class="nav-link active" href="#">Precios</a>
+                    <a class="nav-link active">Novedades</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container my-3">
+
+        <div class="row">
+            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 my-4 bg-personalizado3">
+                <h2>Imagen del producto</h2>
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="Correa.JPG" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Correas de poliester de alta densidad</h5>
+                                <p class="card-text">Mosquetones de acero reforzados, ideal para adiestramientos y paseos</p>
+                                <p class="card-text"><small class="text-muted">Vienen en 4 medidas distintas</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 my-4 bg-personalizado">
+                <h2>Formulario de pedido</h2>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Abra este menú para elegir</option>
+                    <option value="1">1 - Correa de 5.0mts</option>
+                    <option value="2">2 - Correa de 3.0mts</option>
+                    <option value="3">3 - Correa de 1.5mts</option>
+                    <option value="3">4 - Correa de 1.0mts</option>
+                </select>
+
+                <div class="d-grid gap-2">
+                    <button class="btn btn-success" type="button">Guardar</button>
+                    <button class="btn btn-secondary" type="button">Borrar</button>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 my-4 bg-personalizado2">
+                <h2>Stock de correas para perros</h2>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th class="centrado">#</th>
+                            <th class="centrado">Articulo</th>
+                            <th class="centrado">Cantidad física</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="centrado">1</td>
+                            <td class="centrado">Correa 5 metros de 2 cm</td>
+                            <td class="centrado">21</td>
+                        </tr>
+                        <tr>
+                            <td class="centrado">2</td>
+                            <td class="centrado">Correa 3 metros de 2 cm</td>
+                            <td class="centrado">110</td>
+                        </tr>
+                        <tr>
+                            <td class="centrado">3</td>
+                            <td class="centrado">Correa 1.5 metros de 2 cm</td>
+                            <td class="centrado">45</td>
+                        </tr>
+                        <tr>
+                            <td class="centrado">4</td>
+                            <td class="centrado">Correa 1 metro de 2 cm</td>
+                            <td class="centrado">31</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!-- copio js desde bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+            integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+            integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+            crossorigin="anonymous"></script>
+
+</body>
+
+</html>
